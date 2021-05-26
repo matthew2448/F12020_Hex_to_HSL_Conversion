@@ -1,0 +1,20 @@
+table {
+  width: calc(100% + 20px);
+  table-layout: fixed;
+  border-spacing: 10px 0px;
+  margin: 0px 15px;
+}
+
+.table-container {
+  overflow: hidden;
+  width: 300px;
+  margin: 0 auto;
+}
+.w3-half {
+  height: 140px;
+  width: 280;
+  padding-top: 16px;
+}
+.center {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    
+</head>
+
+<body id="output" style="background-color: beige;">
+</body>
+
+<div class="w3-row" >
+    <div class="w3-half w3-center" id = "currentColor"style="background:black">
+        <p class="w3-xxlarge" id = "colorText" style="color:#000202"><b></b></p>
+        <p class="w3-xxlarge" id="colorTextRGB" style="color:#000202"><b></b></p>
+        <p class="w3-xxlarge" id="colorTextHSL" style="color:#000202"><b></b></p>
+    </div>
+</div>
+
+<div>
+    <input type="text" placeholder="Enter Hex Value">
+</div>
+
+<div>
+        <button type="button" class="btn btn-primary" id="button1">Sumbit</button>
+</div>
+
+<table id="colorTable">
+    <thead>
+        <tr>
+            <th scope="col">Hex Value</th>
+            <th scope="col">RGB Value</th>
+            <th scope="col">HSL Value</th>
+        </tr>
+    </thead>
+</table>
+<br>
+
+<script src="colorconverter.js"></script>
+
+</html>
