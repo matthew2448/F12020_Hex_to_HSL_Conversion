@@ -1,25 +1,25 @@
-link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous')
-link(rel='stylesheet' href='style.css')
+extends layout
 
-div
-  input(type='text' placeholder='Enter Hex Value Here')
-  button#button1.btn.btn-primary(type='button' onclick='/javascripts/colorconverter.js') Sumbit
+block content
+  div
+    input(type='text' placeholder='Enter Hex Value Here')
+    button#button1.btn.btn-primary(type='button' onclick='/javascripts/colorconverter.js') Sumbit
 
-head
-.w3-row
-  #currentColor.w3-half.w3-center(style='background:black')
-    p#colorText.w3-xxlarge(style='color:#000202')
-      b
-    p#colorTextRGB.w3-xxlarge(style='color:#000202')
-      b
-    p#colorTextHSL.w3-xxlarge(style='color:#000202')
-      b
+  head
+  .w3-row
+    #currentColor.w3-half.w3-center(style='background:black')
+      p#colorText.w3-xxlarge(style='color:#000202')
+        b
+      p#colorTextRGB.w3-xxlarge(style='color:#000202')
+        b
+      p#colorTextHSL.w3-xxlarge(style='color:#000202')
+        b
 
-table#colorTable
-  thead
-    tr
-      th(scope='col') Hex Value
-      th(scope='col') RGB Value
-      th(scope='col') HSL Value
-br
-script(src='/javascripts/colorconverter.js')
+  table#colorTable
+    thead
+      tr
+        th(scope='col') Hex Value
+        th(scope='col') RGB Value
+        th(scope='col') HSL Value
+  br
+  script(src='/javascripts/colorconverter.js')
