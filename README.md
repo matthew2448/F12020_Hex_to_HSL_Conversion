@@ -3,4 +3,4 @@ Page takes in HEX value and converts to RGB but most importantly a HSL value for
 
 https://f1colorconverter.herokuapp.com
 
-![alt text](https://imgur.com/a/RyjrmSC)
+![Example](https://imgur.com/a/RyjrmSC)
